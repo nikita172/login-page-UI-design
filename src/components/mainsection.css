@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    height: calc( 100vh - 60px);
+    color:rgb(37, 37, 72)
+}
+.mainLeft{
+    display: flex;
+    flex:3;
+    align-items: center;
+    justify-content: center;
+}
+.inputForm{
+    width:300px;
+}
+.inputTopDetails{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inputForm h1{
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height:18px;
+}
+.inputForm span{
+    font-weight: 500;
+    font-size: small;
+}
+.mainRight{
+    display: flex;
+    flex:5;
+}
+.inputBottomDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: rgb(37, 37, 72) ;
+    border-color: rgb(37, 37, 72) ;
+  }
+ .mainRight img{
+    object-fit: cover;
+    width: 100%;
+   
+ }
+
+ @media screen and (max-width:860px)  {
+    .mainRight{
+        display: none;
+        
+   
+    }
+    
+ }
+ .ant-input:focus {
+    border-color: rgba(40, 72, 229, 0.2);
+      
+    -webkit-box-shadow: 0 0 0 0px rgba(40, 72, 229, 0.2); 
+    box-shadow: 0 0 0 0px rgba(40, 72, 229, 0.2);
+}
