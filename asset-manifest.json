@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vouch-digital-assignment/static/css/main.e81253e4.css",
+    "main.js": "/vouch-digital-assignment/static/js/main.067e0ce1.js",
+    "index.html": "/vouch-digital-assignment/index.html",
+    "main.e81253e4.css.map": "/vouch-digital-assignment/static/css/main.e81253e4.css.map",
+    "main.067e0ce1.js.map": "/vouch-digital-assignment/static/js/main.067e0ce1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e81253e4.css",
+    "static/js/main.067e0ce1.js"
+  ]
+}
